@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.body {
+  background: #00b9ce;
+  color: white;
+  margin-top: 2rem;
+}
+.body .wrapper .form {
+  max-width: 20rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+}
+.body .wrapper .form .input-search {
+  height: 3rem;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+  color: #003d44;
+}
+.body .wrapper .form .search-btn {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  margin: 1rem 0 0 0;
+  background: #11e7ff;
+  color: #006b77;
+  font-weight: 700;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+.body .wrapper .form .search-btn:hover {
+  background: #00def7;
+}
+.body .wrapper .user-card {
+  position: relative;
+  max-width: 20rem;
+  margin: 7rem auto 2rem;
+  background: #00b0c4;
+  border: solid 5px #0099aa;
+  border-radius: 0.4rem;
+  padding: 5.5rem 2.5rem 1rem;
+  text-align: center;
+}
+.body .wrapper .user-card .user-avatar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+  margin: 0 auto;
+  background: #0099aa;
+  padding: 5px;
+  max-width: 100%;
+  transition: 0.2s;
+  display: none;
+}
+.body .wrapper .user-card .user-avatar:hover {
+  background: #008291;
+}
+.body .wrapper .user-card .username {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 1rem auto;
+}
+.body .wrapper .user-card .username .user-link {
+  color: white;
+  border-bottom: solid 2px white;
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.body .wrapper .user-card .username .user-link:hover {
+  opacity: 0.8;
+}
+.body .wrapper .user-card .info-titles {
+  margin: 0 0 0.2rem;
+  padding: 0;
+}
+.body .wrapper .user-card .user-info {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  font-size: 1.1rem;
+}
+.body .wrapper .not-found {
+  display: none;
+  max-width: 20rem;
+  margin: 2rem auto 2rem;
+  background: #00b0c4;
+  border: solid 5px #0099aa;
+  border-radius: 0.4rem;
+  padding: 1rem 2.5rem 1rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

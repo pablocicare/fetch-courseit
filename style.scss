@@ -1,0 +1,125 @@
+$primary: #0099aa;
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.body {
+  background: lighten($primary, 7);
+  color: white;
+  margin-top: 2rem;
+
+  
+  .wrapper {    
+    .form {
+      max-width: 20rem;
+      margin: 1rem auto;
+      display: flex;
+      flex-direction: column;
+      
+      .input-search {
+        height: 3rem;
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        padding: 0 1rem;
+        border-radius: .2rem;
+        font-size: 1.1rem;
+        color: darken($primary, 20);
+      }
+      
+      .search-btn {
+        width: 100%;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        border: none;
+        margin: 1rem 0 0 0;
+        background: lighten($primary, 20);
+        color: darken($primary, 10);
+        font-weight: 700;
+        border-radius:.4rem;
+        cursor: pointer;
+        
+        &:hover {
+          background: lighten($primary, 15);
+        }
+      }
+    }
+    
+    .user-card {
+      position: relative;
+      max-width: 20rem;
+      margin: 7rem auto 2rem;
+      background: lighten($primary, 5);
+      border: solid 5px $primary;
+      border-radius: .4rem;
+      padding: 5.5rem 2.5rem 1rem;
+      text-align: center;
+     
+      
+      .user-avatar {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+        text-align: center;
+        margin: 0 auto;
+        background: $primary;
+        padding: 5px;
+        max-width: 100%;
+        transition: 0.2s;
+        
+        display: none;
+
+        &:hover {
+          background: darken($primary, 5);
+        }
+      }
+      
+      .username {
+        font-size: 2rem;
+        font-weight: 900;
+        margin: 1rem auto;
+        
+        .user-link {
+          color: white;
+          border-bottom: solid 2px white;
+          width: 100%;
+          text-decoration: none;
+          margin-bottom: 0;
+          padding-bottom: 0;
+          
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+      
+      .info-titles {
+        margin: 0 0 .2rem;
+        padding: 0;
+      }
+      
+      .user-info {
+        margin: 0 0 1rem 0;
+        padding: 0;
+        font-size: 1.1rem;
+      }
+    }
+    
+    .not-found {
+        display: none;
+        max-width: 20rem;
+        margin: 2rem auto 2rem;
+        background: lighten($primary, 5);
+        border: solid 5px $primary;
+        border-radius: .4rem;
+        padding: 1rem 2.5rem 1rem;
+        text-align: center;
+    }
+  }
+}

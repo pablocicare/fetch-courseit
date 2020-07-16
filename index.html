@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="wrapper">
+
+        <div class="form js-form">
+          <input type="text" class="input-search js-input-search" placeholder="nombre de usuario...">
+          <button class="search-btn js-search-btn">Buscar usuario</button>
+          <button class="search-btn js-clean-btn">Limpiar</button>
+        </div>
+
+        <div class="user-card js-user-card">
+          <img class="user-avatar js-user-avatar">
+          <h2 class="username js-username"><a href="#" class="user-link js-nickname"></a></h2>
+          <h3 class="info-titles">Nombre real</h3>
+          <p class="user-info js-realname"></p>
+          <h3 class="info-titles">Ubicación</h3>
+          <p class="user-info js-location"></p>
+          <h3 class="info-titles">Numero de repos publicos</h3>
+          <p class="user-info js-repos"></p>
+          <h3 class="info-titles">Numero de seguidores</h3>
+          <p class="user-info js-followers"></p>
+        </div>
+      
+        <div class="not-found js-not-found">
+          <h3>Usuario no encontrado</h3>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
