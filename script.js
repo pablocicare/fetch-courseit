@@ -9,6 +9,7 @@ let button = document.querySelector(".js-search-btn");
 let card = document.querySelector(".js-user-card");
 let notCard = document.querySelector(".js-not-found");
 let notButton = document.querySelector(".js-clean-btn");
+let catError = document.querySelector(".js-http-cat");
 
 button.addEventListener("click", getGithubUser);
 
@@ -43,6 +44,8 @@ async function getGithubUser () {
     input.value = null;
     
     nicknameEl.innerHTML = userData.login;
+
+    nicknameEl.href = (userData.html_url);
     
     realnameEl.innerHTML = userData.name;
     
@@ -58,6 +61,7 @@ async function getGithubUser () {
     // notFound();
     
     if (userData.message === "Not Found") {
+      catError.src = (`https://http.cat/${responseData.status}`);
       card.style.display = "none";
       notCard.style.display = "block";
     } else {

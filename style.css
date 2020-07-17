@@ -4,7 +4,7 @@
 }
 
 .body {
-  background: #00b9ce;
+  background: #1a96f6;
   color: white;
   margin-top: 2rem;
 }
@@ -22,7 +22,7 @@
   padding: 0 1rem;
   border-radius: 0.2rem;
   font-size: 1.1rem;
-  color: #003d44;
+  color: #054b81;
 }
 .body .wrapper .form .search-btn {
   width: 100%;
@@ -30,21 +30,21 @@
   font-size: 1.1rem;
   border: none;
   margin: 1rem 0 0 0;
-  background: #11e7ff;
-  color: #006b77;
+  background: #5ab3f8;
+  color: #0767b2;
   font-weight: 700;
   border-radius: 0.4rem;
   cursor: pointer;
 }
 .body .wrapper .form .search-btn:hover {
-  background: #00def7;
+  background: #41a8f7;
 }
 .body .wrapper .user-card {
   position: relative;
   max-width: 20rem;
   margin: 7rem auto 2rem;
-  background: #00b0c4;
-  border: solid 5px #0099aa;
+  background: #1091f6;
+  border: solid 5px #0984e3;
   border-radius: 0.4rem;
   padding: 5.5rem 2.5rem 1rem;
   text-align: center;
@@ -59,14 +59,14 @@
   height: 10rem;
   text-align: center;
   margin: 0 auto;
-  background: #0099aa;
+  background: #0984e3;
   padding: 5px;
   max-width: 100%;
   transition: 0.2s;
   display: none;
 }
 .body .wrapper .user-card .user-avatar:hover {
-  background: #008291;
+  background: #0876ca;
 }
 .body .wrapper .user-card .username {
   font-size: 2rem;
@@ -97,11 +97,16 @@
   display: none;
   max-width: 20rem;
   margin: 2rem auto 2rem;
-  background: #00b0c4;
-  border: solid 5px #0099aa;
+  background: #1091f6;
+  /* border: solid 5px #0984e3;
   border-radius: 0.4rem;
-  padding: 1rem 2.5rem 1rem;
+  padding: 1rem 2.5rem 1rem; */
   text-align: center;
 }
+.body .wrapper .not-found .http-cat {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /*# sourceMappingURL=style.css.map */
